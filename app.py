@@ -30,6 +30,9 @@ init_admin()
 # Configuration de la page
 st.set_page_config(page_title="Suivi des Mesures", layout="wide")
 
+#Titre de la page
+st.markdown("<h1 style='text-align: center; color: #FF6F61;'>Program SYW</h1>", unsafe_allow_html=True)
+
 # Style CSS personnalisé
 st.markdown("""
     <style>
